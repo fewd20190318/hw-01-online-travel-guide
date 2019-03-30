@@ -1,3 +1,30 @@
 body{
-  
+  font-size: 16px;
+  color: #2D2E30;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #E4E5EB;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header h1{
+  text-align: center;
+  margin-top: 50px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #B5C0C7;
+  padding: 10px 0px;
+}
+
+nav a {
+  color: #2E358E;
+  font-weight: bold;
+  text-decoration: none;
 }
