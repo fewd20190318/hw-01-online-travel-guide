@@ -75,12 +75,12 @@ nav a:hover {
   border-radius: 10%;
 }
 
-.to-eat-article a {
+.content a {
   text-decoration: none;
   color: #2E358E;
 }
 
-.to-eat-article a:hover {
+.content a:hover {
   text-decoration: none;
   color: #A89AA0;
 }
