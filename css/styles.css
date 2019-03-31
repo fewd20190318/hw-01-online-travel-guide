@@ -1,0 +1,26 @@
+/*Applies to all pages*/
+body {
+  background-color: #f7f8f9;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.destination-title {
+  text-align: center;
+  font-size: 2em;
+  font-variant: small-caps slashed-zero;
+  background-image: url("../images/cuidad_de_mexico.jpg");
+  background-origin: border-box;
+  background-position: center;
+  background-size: 960px 170px;
+  background-repeat: no-repeat;
+}
+
+nav {
+  justify-content: space-around;
+  display: flex;
+}
