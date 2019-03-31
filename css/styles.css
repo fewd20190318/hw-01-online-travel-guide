@@ -8,12 +8,13 @@ body{
 .container{
   width: 960px;
   margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 .header h1{
   text-align: center;
   margin-top: 50px;
-  font-size: 45px;
+  font-size: 3em;
 }
 
 nav{
@@ -21,11 +22,17 @@ nav{
   justify-content: space-around;
   margin-bottom: 20px;
   background-color: #B5C0C7;
-  padding: 10px 0px;
+  padding: 15px 0px;
 }
 
 nav a {
   color: #2E358E;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #A89AA0;
   font-weight: bold;
   text-decoration: none;
 }
@@ -42,4 +49,33 @@ nav a {
 .home-image img {
   height: 350px;
   width: 700px;
+}
+
+.subhead {
+  text-align: center;
+}
+
+.to-do-article img{
+  height: 300px;
+  width: 600px;
+}
+
+.to-eat-article img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+.to-eat-article a {
+  text-decoration: none;
+  color: #2E358E;
+}
+
+.to-eat-article a:hover {
+  text-decoration: none;
+  color: #A89AA0;
+}
+
+.bold {
+  font-weight: bold;
 }
