@@ -28,6 +28,7 @@ nav{
 nav a {
   color: #2E358E;
   font-weight: bold;
+  font-size: 1.1em;
   text-decoration: none;
 }
 
@@ -39,6 +40,11 @@ nav a:hover {
 
 .content {
   margin: 0 50px;
+  padding-bottom: 15px;
+}
+
+.content h3 {
+  font-size: 1.4em;
 }
 
 .home-image{
@@ -55,6 +61,9 @@ nav a:hover {
   text-align: center;
 }
 
+.subhead h2 {
+  font-size: 2em;
+}
 .to-do-article img{
   height: 300px;
   width: 600px;
