@@ -14,22 +14,16 @@ nav {
 }
 
 .destination-title {
-  justify-content: space-between;
   background-color: #dae5de;
+  border-radius: 20px;
 }
 
 .destination-title h1 {
-  padding-top: 5px;
+  margin-top: 10px;
+
   text-align: center;
   font-variant: small-caps slashed-zero;
   font-size: 5em;
-}
-
-.destination-title h2 {
-  text-align: center;
-  font-variant: small-caps slashed-zero;
-  font-size: 3em;
-  padding-bottom: 5px;
 }
 
 .content img[alt="Cuidad de Mexico"] {
