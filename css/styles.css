@@ -2,6 +2,7 @@ body {
   background-color: #f7f8f9;
   font-family: "Gill Sans", sans-serif;
 }
+
 /*Styles for Navigation at top of each page.*/
 nav {
   justify-content: space-around;
@@ -12,6 +13,7 @@ nav {
   width: 960px;
   margin: 0 auto;
 }
+
 /*Styles the title "Mexico City Travel Guide".*/
 .destination-title {
   background-color: #dae5de;
@@ -25,6 +27,7 @@ nav {
   font-variant: small-caps slashed-zero;
   font-size: 5em;
 }
+
 /*Images in content of homepage are moved to the left and right. */
 .content img[alt="Cuidad de Mexico"] {
   float: right;
@@ -57,4 +60,24 @@ nav {
 
 .things-to-do p {
   clear: right;
+}
+
+/*Styles the Mexico City Places to eat page.*/
+.places-to-eat li {
+  font-weight: bold;
+  clear: right;
+}
+
+.places-to-eat img{
+  height: 300px;
+  width: 400px;
+  margin-left: 15px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  float: right;
+}
+
+.places-to-eat p {
+  clear: left;
 }
