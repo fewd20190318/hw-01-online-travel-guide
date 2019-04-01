@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  text-align: center;
+  background: url('../images/pyramid.jpg') no-repeat center center fixed;
+  background-size: auto;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  color: white;
+}
+
+nav li {
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
