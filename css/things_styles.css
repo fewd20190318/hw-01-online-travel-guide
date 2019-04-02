@@ -1,0 +1,57 @@
+* {
+  font-family: Optima, sans-serif;
+}
+
+body {
+  background-color: lightblue;
+}
+
+img {
+  border-radius: 30%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  padding: 30px;
+  display: flex;
+  align-items: right;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.navigation p {
+  text-align: center;
+}
+
+.navigation a {
+  margin: 50px;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+}
+
+h3  {
+  font-size: 30px;
+  text-align: center;
+  margin: 60px;
+}
+
+.content p {
+  text-align: center;
+  padding: 20;
+  width: 700px;
+  margin: 80px;
+}
+
+.content {
+
+}
+.main {
+  display: flex;
+  max-width: 1050px;
+  margin: auto;
+}
