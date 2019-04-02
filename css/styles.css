@@ -3,8 +3,6 @@ nav {
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
-  height: 0;
-  width: 100%;
   max-width: 60vw;
   margin: auto;
 }
@@ -35,11 +33,11 @@ li a {
   font-size: 1.2em;
 }
 
-li a:visited {
+a:visited {
   color: olivedrab;
 }
 
-li a:hover {
+a:hover {
   color: green;
 }
 
@@ -47,4 +45,13 @@ li a:hover {
   width: 960px;
   margin: 0 auto;
   font-family: Candara;
+}
+
+.content {
+  max-width: 60vw;
+  margin: auto;
+}
+
+p {
+  line-height: 1.5em
 }
