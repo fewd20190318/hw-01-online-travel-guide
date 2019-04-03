@@ -1,0 +1,31 @@
+nav {
+  color: black;
+  font: fantasys;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+
+}
+nav a {
+  font-weight: bold;
+  font-size: 1.3 em;
+  color: grey;
+  justify-content:center;
+  display: flex;
+  padding: 4px;
+}
+
+container{
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body{
+ background-size:auto;
+ background position: center;
+}
+
+.content{
+  text-align: center;
+}
