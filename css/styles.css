@@ -61,6 +61,10 @@ p {
 }
 
 h4 {
+  font-weight: bold;
+}
+
+.credit {
   font-weight: normal;
   font-style: italic;
 }
