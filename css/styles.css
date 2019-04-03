@@ -19,12 +19,18 @@ container{
   width: 960px;
   margin: 0 auto;
   text-align: center;
- background-size:auto;
- background-position:center;
- background-image:url("images/fluerdelys.jpeg");
- background-repeat: repeat;
+}
+
+body{
+  background: white;
 }
 
 .content{
   text-align: center;
+}
+
+.placetogoimages{
+  padding: 40px;
+  margin: 30px;
+
 }
