@@ -1,8 +1,8 @@
 body {
-  font-size: 16px;
-  color: #333333;
-  background-color: aliceblue;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: yellow;
+  background-color: green;
+  font-family: Arial, sans-serif;
 }
 
 .container {
@@ -32,7 +32,7 @@ nav a {
 }
 
 .footer a {
-  color: pink;
+  color: Pink;
 }
 
 .profile-image {
@@ -45,6 +45,6 @@ nav a {
   font-size: 85%;
 }
 
-p {
-  text-indent: 50px;
+.education-list span {
+  font-weight: bold;
 }
