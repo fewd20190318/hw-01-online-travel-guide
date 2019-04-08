@@ -1,0 +1,90 @@
+body{
+  font-size: 16px;
+  color: #2D2E30;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #E4E5EB;
+}
+
+.container{
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.header h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 3em;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  background-color: #B5C0C7;
+  padding: 15px 0px;
+}
+
+nav a {
+  color: #2E358E;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #A89AA0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content {
+  margin: 0 50px;
+  padding-bottom: 15px;
+}
+
+.content h3 {
+  font-size: 1.4em;
+}
+
+.home-image{
+  padding: 0 60px;
+  margin: 50px 0;
+}
+
+.home-image img {
+  height: 350px;
+  width: 700px;
+}
+
+.subhead {
+  text-align: center;
+}
+
+.subhead h2 {
+  font-size: 2em;
+}
+.to-do-article img{
+  height: 300px;
+  width: 600px;
+}
+
+.to-eat-article img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+}
+
+.content a {
+  text-decoration: none;
+  color: #2E358E;
+}
+
+.content a:hover {
+  text-decoration: none;
+  color: #A89AA0;
+}
+
+.bold {
+  font-weight: bold;
+}
