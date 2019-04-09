@@ -1,0 +1,165 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.monfont{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    * {
+    box-sizing: border-box;
+    }
+
+    body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.logo{
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.navigation{
+    text-align: center;
+}
+
+.navigation a{
+    padding:20px 50px;
+    color:black;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color:deepskyblue;
+    overflow: hidden;
+}
+
+.back_buttons {
+  margin: 10px;
+}
+
+.title {
+  text-align: center;
+  color: deepskyblue;
+  padding: 10px 10px;
+}
+
+.blogpost {
+  margin: 20px 30px;
+  text-align: center;
+}
+
+.row {
+       display: flex;
+       flex-wrap: wrap;
+       padding: 0 4px;
+}
+
+.row {
+       display: flex;
+       flex-wrap: wrap;
+       padding: 0 4px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    background-color:white;
+    padding-bottom: 50px;
+}
+
+.column::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.full_img {
+        display:block;
+        width:100%;
+        height:auto;
+        margin:auto;
+}
+
+
+.footer{
+
+  height: 150px;
+  padding-top: 20px;
+  background-color: #00AEEF;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.column2 {
+    float: center;
+    text-align: center;
+    width:75%;
+}
+.column3 {
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.monfont{
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+text-align: center;
+padding: 32px;
+}
+
+.row {
+display: flex;
+flex-wrap: wrap;
+padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column_flex {
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
+
+.column_flex img {
+margin-top: 8px;
+vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+.column_flex {
+flex: 50%;
+max-width: 50%;
+}
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+.column_flex {
+flex: 100%;
+max-width: 100%;
+}
+
+}
